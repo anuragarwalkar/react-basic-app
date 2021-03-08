@@ -6,6 +6,7 @@ function App() {
   const [counter, increaseCounter] = useIncrement();
   return (
     <Fragment>
+      <div>Hello World</div>
       <div className={styles.div}>{counter}</div>
       <button onClick={increaseCounter}>+ Count</button>
     </Fragment>
